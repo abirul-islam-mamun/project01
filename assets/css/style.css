@@ -370,23 +370,23 @@ h1, h2, h3, h4, h5, h6 {
 .single-blog .price-list .car-img {
 	margin-right: 20px;
 }
-.single-blog .price-list .car-details h6 a {
+.single-blog .price-list .car-details a h6 {
 	font-size: 17px;
 	font-weight: 400;
 	color: #232527;
 	line-height: 24px;
 	transition: all .3s ease;
 }
-.single-blog .price-list .car-details h6 a:hover {
+.single-blog .price-list .car-details a h6:hover {
 	color: #FF600A;
 }
-.single-blog .price-list .car-details p {
+.single-blog .price-list .car-details a p {
 	font-size: 14px;
 	font-weight: 400;
 	color: #7E858B;
 	line-height: 22px;
 }
-.single-blog .price-list .car-details span {
+.single-blog .price-list .car-details a span {
 	font-size: 17px;
 	font-weight: 400;
 	color: #FF600A;
@@ -414,23 +414,23 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 0;
 }
 
-.single-blog .feture-posts li h5 a {
+.single-blog .feture-posts li a h5 {
 	font-size: 13px;
 	line-height: 22px;
 	color: #FF600A;
 	margin-bottom: 5px;
 	transition: all .3s ease;
 }
-.single-blog .feture-posts li h5 a:hover{
+.single-blog .feture-posts li a h5:hover{
 	text-decoration: underline;
 }
-.single-blog .feture-posts li span {
+.single-blog .feture-posts li a span {
 	font-size: 14px;
 	line-height: 22px;
 	color: #707070;
 	display: block;
 }
-.single-blog .feture-posts li p {
+.single-blog .feture-posts li a p {
 	font-size: 12px;
 	line-height: 14px;
 	color: #AFAFAF;
@@ -660,7 +660,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-right: 8px;
 	display: block;
 }
-.links-category p span {
+.links-category p a {
     font-size: 13px;
     line-height: 16px;
     color: #FF600A;
@@ -670,6 +670,11 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 40px;
     display: inline-block;
     margin-left: 5px;
+	transition: all .3s ease;
+}
+.links-category p a:hover {
+	background: #FF600A;
+	color: #ffff;
 }
 .relate-blog-list-wrap {
 	display: flex;
